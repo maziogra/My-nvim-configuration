@@ -90,6 +90,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\matti\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["emmet-vim"] = {
+    loaded = true,
+    path = "C:\\Users\\matti\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\emmet-vim",
+    url = "https://github.com/mattn/emmet-vim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "C:\\Users\\matti\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",

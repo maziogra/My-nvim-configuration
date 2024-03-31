@@ -35,4 +35,5 @@ return require('packer').startup(function(use)
 
 	}
 	use 'wakatime/vim-wakatime'
+	use 'mattn/emmet-vim'
 end)
