@@ -120,11 +120,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\matti\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
-  ["nvim-treesitter"] = {
-    loaded = true,
-    path = "C:\\Users\\matti\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
-    url = "https://github.com/nvim-treesitter/nvim-treesitter"
-  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\matti\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
