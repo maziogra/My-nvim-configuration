@@ -95,6 +95,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\matti\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\emmet-vim",
     url = "https://github.com/mattn/emmet-vim"
   },
+  harpoon = {
+    loaded = true,
+    path = "C:\\Users\\matti\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
+    url = "https://github.com/ThePrimeagen/harpoon"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "C:\\Users\\matti\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lsp-zero.nvim",
