@@ -140,6 +140,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\matti\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["vim-prettier"] = {
+    loaded = true,
+    path = "C:\\Users\\matti\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-prettier",
+    url = "https://github.com/prettier/vim-prettier"
+  },
   ["vim-wakatime"] = {
     loaded = true,
     path = "C:\\Users\\matti\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-wakatime",
