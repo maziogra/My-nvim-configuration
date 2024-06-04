@@ -1,3 +1,13 @@
+local servers = {
+  "lua_ls",
+  "html",
+  "tsserver",
+  "cssls",
+  "prismals",
+  "docker_compose_language_service",
+  "tailwindcss",
+}
+
 return {
   {
     "williamboman/mason.nvim",
@@ -12,6 +22,11 @@ return {
     opts = {
       auto_install = true,
     },
+    config = function()
+      require("mason-lspconfig").setup({
+        ensure_installed = servers,
+      })
+    end,
   },
   {
     "neovim/nvim-lspconfig",
@@ -24,15 +39,6 @@ return {
           capabilities = capabilities,
         })
       end
-
-      local servers = {
-        "lua_ls",
-        "html",
-        "tsserver",
-        "cssls",
-        "prismals",
-        "docker_compose_language_service",
-      }
 
       for _, server in ipairs(servers) do
         setup_server(server)
