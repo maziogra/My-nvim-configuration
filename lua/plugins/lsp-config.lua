@@ -6,6 +6,7 @@ local servers = {
   "prismals",
   "docker_compose_language_service",
   "tailwindcss",
+  "eslint",
 }
 
 return {
